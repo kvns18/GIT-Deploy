@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Speaker__c</fullName>
+    <externalId>false</externalId>
+    <label>Speaker</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sarvanand</fullName>
+                <default>false</default>
+                <label>Sarvanand</label>
+            </value>
+            <value>
+                <fullName>Goutham Nanda</fullName>
+                <default>false</default>
+                <label>Goutham Nanda</label>
+            </value>
+            <value>
+                <fullName>Rajesh Gokule</fullName>
+                <default>false</default>
+                <label>Rajesh Gokule</label>
+            </value>
+            <value>
+                <fullName>Franklin Joseph</fullName>
+                <default>false</default>
+                <label>Franklin Joseph</label>
+            </value>
+            <value>
+                <fullName>Narayana Murthy</fullName>
+                <default>false</default>
+                <label>Narayana Murthy</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

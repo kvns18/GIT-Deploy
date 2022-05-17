@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nature_Of_Business__c</fullName>
+    <externalId>false</externalId>
+    <label>Nature Of Business</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Water Purifiers Company</fullName>
+                <default>false</default>
+                <label>Water Purifiers Company</label>
+            </value>
+            <value>
+                <fullName>Gas Connection/Repairs Agency</fullName>
+                <default>false</default>
+                <label>Gas Connection/Repairs Agency</label>
+            </value>
+            <value>
+                <fullName>Interior Makers For Residential</fullName>
+                <default>false</default>
+                <label>Interior Makers For Residential</label>
+            </value>
+            <value>
+                <fullName>Interior Makers For Commercial</fullName>
+                <default>false</default>
+                <label>Interior Makers For Commercial</label>
+            </value>
+            <value>
+                <fullName>Online Supermarket</fullName>
+                <default>false</default>
+                <label>Online Supermarket</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

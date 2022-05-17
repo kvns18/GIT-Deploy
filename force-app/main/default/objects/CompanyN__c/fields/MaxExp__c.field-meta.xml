@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MaxExp__c</fullName>
+    <description>Describes Maximum experience in the company</description>
+    <externalId>false</externalId>
+    <label>MaxExp</label>
+    <summarizedField>Worker__c.Experience__c</summarizedField>
+    <summaryForeignKey>Worker__c.CompanyName__c</summaryForeignKey>
+    <summaryOperation>max</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RT_For_HR_Dept</fullName>
+    <active>true</active>
+    <description>Record Type For HR Department</description>
+    <label>RT For HR Dept</label>
+    <picklistValues>
+        <picklist>Type_Of_Expenses__c</picklist>
+        <values>
+            <fullName>Monthly Activity Expenses</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>New joinees hiring Expenses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Team Outing Expenses</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

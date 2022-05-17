@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VRFirst1</fullName>
+    <active>false</active>
+    <errorConditionFormula>AnnualRevenue &lt; 0  ||   ISPICKVAL( Rating , &apos;&apos;)</errorConditionFormula>
+    <errorMessage>Either Annual Revenue or Rating filed needs to corrected!!.</errorMessage>
+</ValidationRule>
